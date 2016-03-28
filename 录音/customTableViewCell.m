@@ -11,7 +11,10 @@
 @implementation customTableViewCell
 
 - (void)awakeFromNib {
-    // Initialization code
+    
+//    1234567877465
+//    45621136
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
