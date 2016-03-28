@@ -15,6 +15,7 @@
 		3241CE141C979AE300DDAC77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3241CE121C979AE300DDAC77 /* LaunchScreen.storyboard */; };
 		3241CE1F1C979AE400DDAC77 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3241CE1E1C979AE400DDAC77 /* __Tests.m */; };
 		3241CE2A1C979AE400DDAC77 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3241CE291C979AE400DDAC77 /* __UITests.m */; };
+		327C202F1CA90CFE008AD056 /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 327C202E1CA90CFE008AD056 /* customTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3241CE251C979AE400DDAC77 /* 录音UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "录音UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3241CE291C979AE400DDAC77 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		3241CE2B1C979AE400DDAC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327C202D1CA90CFE008AD056 /* customTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTableViewCell.h; sourceTree = "<group>"; };
+		327C202E1CA90CFE008AD056 /* customTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3241CE081C979AE300DDAC77 /* AppDelegate.m */,
 				3241CE0A1C979AE300DDAC77 /* ViewController.h */,
 				3241CE0B1C979AE300DDAC77 /* ViewController.m */,
+				327C202D1CA90CFE008AD056 /* customTableViewCell.h */,
+				327C202E1CA90CFE008AD056 /* customTableViewCell.m */,
 				3241CE0D1C979AE300DDAC77 /* Main.storyboard */,
 				3241CE101C979AE300DDAC77 /* Assets.xcassets */,
 				3241CE121C979AE300DDAC77 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				3241CE0C1C979AE300DDAC77 /* ViewController.m in Sources */,
 				3241CE091C979AE300DDAC77 /* AppDelegate.m in Sources */,
+				327C202F1CA90CFE008AD056 /* customTableViewCell.m in Sources */,
 				3241CE061C979AE300DDAC77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				3241CE301C979AE400DDAC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3241CE311C979AE400DDAC77 /* Build configuration list for PBXNativeTarget "录音Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				3241CE331C979AE400DDAC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3241CE341C979AE400DDAC77 /* Build configuration list for PBXNativeTarget "录音UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				3241CE361C979AE400DDAC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
